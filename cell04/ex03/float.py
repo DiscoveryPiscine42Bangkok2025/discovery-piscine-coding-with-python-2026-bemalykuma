@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def main(number):
     if number.is_integer():
         print("This number is an integer.")

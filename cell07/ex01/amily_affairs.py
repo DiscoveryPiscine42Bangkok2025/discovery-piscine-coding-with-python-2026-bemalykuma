@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def find_the_redheads(dupont_family):
     redheads = [name for name, hair_color in dupont_family.items() if hair_color == "red"]
     return redheads

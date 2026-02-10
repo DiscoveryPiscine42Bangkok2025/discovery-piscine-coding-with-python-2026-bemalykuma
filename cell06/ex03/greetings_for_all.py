@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def greetings(name=None):
     if not name:
         print("Hello, noble stranger.")

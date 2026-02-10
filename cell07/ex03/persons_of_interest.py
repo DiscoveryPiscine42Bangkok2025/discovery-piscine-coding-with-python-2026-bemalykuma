@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def famous_births(scientists_data):
 
     sorted_scientists = sorted(scientists_data.values(), key=lambda x: x["date_of_birth"])

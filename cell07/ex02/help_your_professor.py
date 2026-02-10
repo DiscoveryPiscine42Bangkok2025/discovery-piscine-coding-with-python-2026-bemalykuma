@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def average(class_data):
     average_age = sum(class_data.values()) / len(class_data)
     return average_age

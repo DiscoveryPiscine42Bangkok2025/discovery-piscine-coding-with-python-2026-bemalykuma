@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def main(age):
     print(f"You are currently {age} years old.")
     print(f"In 10 years, you'll be {age + 10} years old.")
