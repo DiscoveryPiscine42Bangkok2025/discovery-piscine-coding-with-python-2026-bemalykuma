@@ -1,0 +1,11 @@
+import sys
+
+if len(sys.argv) < 2:
+    print("none")
+else:
+    keyword = sys.argv[1]
+    word = input("What was the parameter? ")
+    if keyword == word:
+        print("Good Job!")
+    else:
+        print("Nope, sorry...")
